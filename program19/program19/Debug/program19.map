@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.6  C:\Users\5635512110\Documents\Atmel Studio\7.0\ProjectMircro\program12\program12\main.asm Thu Feb 22 12:22:09 2018
+AVRASM ver. 2.2.6  C:\Users\5635512110\Documents\Atmel Studio\7.0\ProjectMircro\program19\program19\main.asm Thu Feb 22 12:13:10 2018
 
 
 EQU  SIGNATURE_000 0000001e
@@ -697,9 +697,9 @@ EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 DEF  VAR_A        r16
 DEF  VAR_B        r17
-DEF  VAR_C        r18
-CSEG LESS         00000006
-CSEG EQUAL        00000008
-CSEG MORE         0000000a
-CSEG ENDIF        0000000b
-CSEG END          0000000d
+DEF  VAR_CL       r18
+DEF  VAR_CH       r19
+DEF  VAR_D        r20
+DEF  TEMP         r21
+CSEG LOOP         00000006
+CSEG END          0000000b
